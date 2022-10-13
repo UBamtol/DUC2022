@@ -5,20 +5,21 @@ body {
   height: 100%;
   padding: 0px;
   margin: 0px;
-
-  background-color: #c6004d;
 }
 
 header {
   width: 1080px;
   height: 80px;
   position: relative;
+  background-color: #c6004d;
 }
 
 section.main {
+  display: flex;
   width: 1080px;
   height: 640px;
   position: relative;
+  background-color: #c6004d;
 }
 
 header > div.title {
@@ -62,4 +63,52 @@ header > div.user {
   line-height: 30px;
 
   color: #ffffff;
+}
+
+section > div.menu {
+  position: relative;
+  float: lefft;
+  box-sizing: border-box;
+  width: 250px;
+  height: 640px;
+  padding-top: 32px;
+  z-index: 1;
+}
+
+section > div.menu > div.menu-item {
+  width: 250px;
+  height: 69px;
+  margin-bottom: 8px;
+}
+
+section > div.menu > div.menu-item > a.inner {
+  display: block;
+  text-decoration: none;
+  box-sizing: border-box;
+  width: 235px;
+  height: 72px;
+  margin-left: 30px;
+
+  padding: 20px 82px 23px 30px;
+
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #ffffff;
+  border-radius: 30px 0px;
+}
+
+section > div.menu > div.menu-item > a.inner.active {
+  background: #7d7d7d;
+}
+section > div.contents {
+  /* position: relative; */
+  float: right;
+  width: 830px;
+  height: 640px;
+  right: 0px;
+  bottom: 0px;
+  background: #ffffff;
+  border-radius: 30px 0 0 0;
 }
