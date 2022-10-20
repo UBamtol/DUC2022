@@ -88,9 +88,7 @@ section > div.menu > div.menu-item > a.inner {
   width: 235px;
   height: 72px;
   margin-left: 30px;
-
   padding: 20px 82px 23px 30px;
-
   font-family: 'S-Core Dream';
   font-style: normal;
   font-weight: 600;
@@ -103,7 +101,6 @@ section > div.menu > div.menu-item > a.inner.active {
   background: #7d7d7d;
 }
 section > div.contents {
-  /* position: relative; */
   float: right;
   width: 830px;
   height: 640px;
@@ -111,4 +108,154 @@ section > div.contents {
   bottom: 0px;
   background: #ffffff;
   border-radius: 30px 0 0 0;
+  padding: 50px 0 0 50px;
+}
+section > div.contents > div.contents-title {
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+section > div.contents > div.contents-tagline {
+  margin-top: 16px;
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  margin-bottom: 40px;
+}
+section > div.contents > div.contents-items {
+  display: flex;
+  margin-top: 16px;
+}
+section > div.contents > div.contents-items > div.items-container {
+  display: flex;
+  margin-right: 60px;
+  width: 325px;
+  justify-content: space-between;
+}
+section
+  > div.contents
+  > div.contents-items
+  > div.items-container
+  > div.items-title {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section
+  > div.contents
+  > div.contents-items
+  > div.items-container
+  > div.items-contents {
+  border: solid 1px black;
+  border-radius: 4px;
+  width: 194px;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+}
+section > div.contents > div.button {
+  margin: 44px auto 77px auto;
+  display: flex;
+  width: 325px;
+  height: 65px;
+  background: #c6004d;
+  border-radius: 7px;
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+section div.contents > div.sub-contents > div.contents-title {
+  font-family: 'S-Core Dream';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 16px;
+}
+section
+  div.contents
+  > div.sub-contents
+  > div.contents-itmes
+  > div.items-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+section
+  div.contents
+  > div.sub-contents
+  > div.contents-itmes
+  > div.items-container
+  > div.items-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #c6004d;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 17px;
+  color: #c6004d;
+}
+section
+  div.contents
+  > div.sub-contents
+  > div.contents-itmes
+  > div.items-container
+  > div.items-date {
+  margin-left: 53px;
+  margin-right: 69px;
+}
+section
+  div.contents
+  > div.sub-contents
+  > div.contents-itmes
+  > div.items-container
+  > div.items-number {
+  margin-left: 70px;
+  margin-right: 64px;
+}
+section
+  div.contents
+  > div.sub-contents
+  > div.contents-itmes
+  > div.items-container
+  > div.items-done {
+  font-weight: 600;
+  margin-left: 77px;
+  margin-right: 50px;
+  color: #c6004d;
+}
+
+section
+  div.contents
+  > div.sub-contents
+  > div.contents-itmes
+  > div.items-container
+  > div.items-doneSec {
+  font-weight: 600;
+  margin-left: 61px;
+  margin-right: 50px;
+  color: #c6004d;
 }
